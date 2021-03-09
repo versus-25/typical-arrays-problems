@@ -8,7 +8,7 @@ exports.min = function min (array) {
 exports.max = function max (array) {
   if (!array) return 0;
   array.sort((a, b) => {return b - a})
-  return array[-1]
+  return array[0]
 }
 
 exports.avg = function avg (array) {
